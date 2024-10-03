@@ -287,6 +287,8 @@ int main()
         cout<<"Select The Option: ";
         cin>>select;
     }
+    delete MyAccount;
+    delete mycash;
     return 0;
 }
 
